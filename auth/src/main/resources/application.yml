@@ -1,0 +1,32 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: auth-server
+
+logging:
+  level:
+    org.springframework.security: TRACE
+
+#security:
+#  user:
+#    name: root
+#    password: password
+#  oauth2:
+#    client:
+#      client-id: kansal
+#      client-secret: rudra
+
+okta:
+  oauth2:
+    issuer: https://dev-366439.oktapreview.com/oauth2/default
+    clientId: 0oadeu4bfjfmSbNm80h7
+    clientSecret: hENwFwue-kUncck528SV7pWP4lAD32jHIewFEmei
+    #redirectUri: http://localhost:8080/authorization-code/callback
+
+security:
+  oauth2:
+    sso:
+      loginPath: /authorization-code/callback
+
