@@ -1,3 +1,4 @@
-# spring-microservices-basics
+# okta-auth-microservices
 
-https://cloud.spring.io/spring-cloud-sleuth/spring-cloud-sleuth.html
+This project is extension of simple-microservice-basics.
+This is to show the okta integration as auth server/service provider.
